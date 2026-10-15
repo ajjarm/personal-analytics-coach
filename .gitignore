@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+.pnp*
+
+# Builds
+dist/
+build/
+.next/
+out/
+.vercel/
+.wrangler/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p8
+supabase/.temp/
+
+# Real data, never commit
+data/
+seed-data/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
